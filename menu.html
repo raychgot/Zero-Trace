@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Zero Trace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Zero <span>Trace</span></a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero hero-menu">
+        <h1>Our Menu</h1>
+        <p>Every dish is 100% gluten-free. Always.</p>
+    </section>
+
+    <section class="full-menu">
+        <div class="container">
+            <div class="menu-section">
+                <h3>Starters</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div>
+                            <h4>Crispy Calamari</h4>
+                            <p>Lightly battered in seasoned rice flour, served with house-made lemon aioli and marinara</p>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free Option</span>
+                        </div>
+                        <span class="price">$14</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Stuffed Mushrooms</h4>
+                            <p>Cremini mushrooms filled with herbed goat cheese, topped with toasted pine nuts</p>
+                        </div>
+                        <span class="price">$12</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Seasonal Soup</h4>
+                            <p>Chef's daily creation using fresh, local ingredients. Ask your server for today's selection</p>
+                            <span class="dietary-tag tag-vegan">Vegan Option</span>
+                        </div>
+                        <span class="price">$9</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Bruschetta Trio</h4>
+                            <p>Three gluten-free crostini topped with tomato basil, olive tapenade, and whipped ricotta</p>
+                        </div>
+                        <span class="price">$13</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Thai Lettuce Wraps</h4>
+                            <p>Seasoned chicken or tofu in crisp butter lettuce with peanut sauce and fresh herbs</p>
+                            <span class="dietary-tag tag-vegan">Vegan Option</span>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$14</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Shrimp Cocktail</h4>
+                            <p>Six jumbo shrimp with house-made cocktail sauce and fresh lemon</p>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$16</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h3>Salads</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div>
+                            <h4>Garden Greens</h4>
+                            <p>Mixed greens, cherry tomatoes, cucumber, red onion with balsamic vinaigrette</p>
+                            <span class="dietary-tag tag-vegan">Vegan</span>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$11</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Caesar Salad</h4>
+                            <p>Romaine hearts, house-made GF croutons, parmesan, anchovy-free caesar dressing</p>
+                        </div>
+                        <span class="price">$13</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Quinoa Power Bowl</h4>
+                            <p>Tri-color quinoa, roasted vegetables, chickpeas, avocado, tahini dressing</p>
+                            <span class="dietary-tag tag-vegan">Vegan</span>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$15</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Steak Salad</h4>
+                            <p>Grilled sirloin over mixed greens with blue cheese, cherry tomatoes, red onion</p>
+                        </div>
+                        <span class="price">$19</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h3>Main Courses</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div>
+                            <h4>Grilled Atlantic Salmon</h4>
+                            <p>Fresh salmon fillet with lemon-dill butter, served with quinoa pilaf and seasonal vegetables</p>
+                        </div>
+                        <span class="price">$28</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Herb-Crusted Chicken</h4>
+                            <p>Free-range chicken breast with garlic herb crust, roasted fingerling potatoes, green beans</p>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$24</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Risotto Primavera</h4>
+                            <p>Creamy arborio rice with seasonal garden vegetables, parmesan, fresh herbs</p>
+                            <span class="dietary-tag tag-vegan">Vegan Option</span>
+                        </div>
+                        <span class="price">$22</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Pan-Seared Sea Bass</h4>
+                            <p>Chilean sea bass with miso glaze, jasmine rice, bok choy</p>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$34</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Filet Mignon</h4>
+                            <p>8oz center-cut beef tenderloin, truffle mashed potatoes, asparagus, red wine reduction</p>
+                        </div>
+                        <span class="price">$42</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Eggplant Parmesan</h4>
+                            <p>Breaded in seasoned rice flour, house marinara, melted mozzarella, fresh basil</p>
+                        </div>
+                        <span class="price">$20</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Thai Curry Bowl</h4>
+                            <p>Choice of chicken, shrimp, or tofu in coconut curry with vegetables over jasmine rice</p>
+                            <span class="dietary-tag tag-vegan">Vegan Option</span>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$23</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>GF Pasta Bolognese</h4>
+                            <p>House-made rice pasta with slow-simmered meat sauce, parmesan</p>
+                        </div>
+                        <span class="price">$21</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h3>Desserts</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div>
+                            <h4>Flourless Chocolate Cake</h4>
+                            <p>Rich, dense chocolate cake with raspberry coulis and whipped cream</p>
+                        </div>
+                        <span class="price">$10</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Crème Brûlée</h4>
+                            <p>Classic vanilla bean custard with caramelized sugar crust</p>
+                        </div>
+                        <span class="price">$9</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>New York Cheesecake</h4>
+                            <p>Creamy cheesecake on almond flour crust with fresh berry compote</p>
+                        </div>
+                        <span class="price">$11</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Coconut Panna Cotta</h4>
+                            <p>Silky coconut cream with passion fruit sauce and toasted coconut</p>
+                            <span class="dietary-tag tag-vegan">Vegan</span>
+                            <span class="dietary-tag tag-dairy-free">Dairy-Free</span>
+                        </div>
+                        <span class="price">$9</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>GF Cookie Sundae</h4>
+                            <p>Warm chocolate chip cookie topped with vanilla ice cream, hot fudge, whipped cream</p>
+                        </div>
+                        <span class="price">$12</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Seasonal Fruit Crisp</h4>
+                            <p>Warm baked fruit with GF oat crumble topping, served with vanilla ice cream</p>
+                        </div>
+                        <span class="price">$10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h3>Beverages</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div>
+                            <h4>Fresh Squeezed Juices</h4>
+                            <p>Orange, grapefruit, or seasonal blend</p>
+                        </div>
+                        <span class="price">$6</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Craft Sodas</h4>
+                            <p>House-made ginger beer, lavender lemonade, or hibiscus fizz</p>
+                        </div>
+                        <span class="price">$5</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Coffee & Espresso</h4>
+                            <p>Locally roasted beans, available with oat, almond, or coconut milk</p>
+                        </div>
+                        <span class="price">$4-7</span>
+                    </div>
+                    <div class="menu-card">
+                        <div>
+                            <h4>Artisan Tea Selection</h4>
+                            <p>Curated selection of loose-leaf teas, hot or iced</p>
+                        </div>
+                        <span class="price">$4</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-notice">
+                <p><strong>Allergen Notice:</strong> While our kitchen is 100% gluten-free, please inform your server of any additional allergies.</p>
+                <p class="menu-notice-small">Menu items and prices subject to change. Gratuity of 20% added for parties of 6 or more.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Zero Trace</h4>
+                <p>100% Gluten-Free Restaurant</p>
+                <p>Serving safe, delicious meals since 2019</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Mon-Thu: 11am - 9pm</p>
+                <p>Fri-Sat: 11am - 10pm</p>
+                <p>Sunday: 10am - 8pm</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>123 Wellness Way</p>
+                <p>Orlando, FL 32801</p>
+                <p>(407) 555-0123</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Reservations</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zero Trace Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

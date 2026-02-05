@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Zero Trace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Zero <span>Trace</span></a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you</p>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-centered">
+                <div class="contact-form-header">
+                    <h2>Send Us a Message</h2>
+                    <p>Whether you have questions, want to make a reservation, or need to discuss dietary accommodations, we're here to help.</p>
+                </div>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us more about your inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <span class="icon">📍</span>
+                    <h4>Location</h4>
+                    <p>123 Wellness Way<br>Orlando, FL 32801</p>
+                </div>
+                <div class="contact-info-card">
+                    <span class="icon">📞</span>
+                    <h4>Phone</h4>
+                    <p>(407) 555-0123</p>
+                </div>
+                <div class="contact-info-card">
+                    <span class="icon">✉️</span>
+                    <h4>Email</h4>
+                    <p>hello@zerotrace.com</p>
+                </div>
+                <div class="contact-info-card">
+                    <span class="icon">🕐</span>
+                    <h4>Hours</h4>
+                    <p>Mon-Thu: 11am - 9pm<br>Fri-Sat: 11am - 10pm<br>Sun: 10am - 8pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Reservations</h2>
+                <p>Secure your table at Zero Trace</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📱</div>
+                    <h3>Call Us</h3>
+                    <p>For immediate reservations or large party bookings, give us a call at (407) 555-0123. Our team is ready to assist you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">💻</div>
+                    <h3>Online Booking</h3>
+                    <p>Book through OpenTable or Resy for quick and easy reservations. Links available on our social media pages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🎉</div>
+                    <h3>Private Events</h3>
+                    <p>Hosting a celebration? Our private dining room accommodates up to 30 guests. Contact us for custom menus and pricing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Us</h2>
+                <p>Located in the heart of downtown Orlando</p>
+            </div>
+            <div style="background: #e8e8e8; height: 400px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #666;">
+                <div style="text-align: center;">
+                    <p style="font-size: 3rem; margin-bottom: 1rem;">🗺️</p>
+                    <p><strong>123 Wellness Way, Orlando, FL 32801</strong></p>
+                    <p style="margin-top: 0.5rem;">Free parking available in rear lot</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+                <div class="feature-card" style="text-align: left;">
+                    <h3 style="margin-bottom: 0.75rem;">Is your entire menu gluten-free?</h3>
+                    <p>Yes! Our entire facility is 100% gluten-free. Every dish on our menu is safe for those with celiac disease or gluten sensitivity.</p>
+                </div>
+                <div class="feature-card" style="text-align: left;">
+                    <h3 style="margin-bottom: 0.75rem;">Do you accommodate other allergies?</h3>
+                    <p>Absolutely. Please inform your server of any allergies, and our kitchen will take extra precautions. We offer many dairy-free and vegan options.</p>
+                </div>
+                <div class="feature-card" style="text-align: left;">
+                    <h3 style="margin-bottom: 0.75rem;">Do I need a reservation?</h3>
+                    <p>Reservations are recommended, especially for dinner and weekend brunch. Walk-ins are welcome based on availability.</p>
+                </div>
+                <div class="feature-card" style="text-align: left;">
+                    <h3 style="margin-bottom: 0.75rem;">Is there parking available?</h3>
+                    <p>Yes, we have a free parking lot behind the restaurant. Street parking is also available, and we're accessible via LYNX bus routes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Zero Trace</h4>
+                <p>100% Gluten-Free Restaurant</p>
+                <p>Serving safe, delicious meals since 2019</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Mon-Thu: 11am - 9pm</p>
+                <p>Fri-Sat: 11am - 10pm</p>
+                <p>Sunday: 10am - 8pm</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>123 Wellness Way</p>
+                <p>Orlando, FL 32801</p>
+                <p>(407) 555-0123</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Reservations</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zero Trace Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
