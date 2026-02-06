@@ -112,8 +112,8 @@ nav ul li a.active::after {
 }
 
 .hero-home {
-    background: linear-gradient(rgba(45, 90, 39, 0.82), rgba(45, 90, 39, 0.88)),
-                url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)),
+                url('public/images/hero.jpg');
     background-size: cover;
     background-position: center;
     padding: 6rem 2rem 7rem;
@@ -269,6 +269,11 @@ section {
 .feature-card h3 {
     color: var(--primary-color);
     margin-bottom: 0.75rem;
+}
+
+/* Section with texture background */
+.section-textured {
+    background: url('public/images/section-bg.jpg') center / cover no-repeat;
 }
 
 /* Gallery Section */
